@@ -9,6 +9,14 @@
 }
 
 @layer components {
+  .menu-item {
+    @apply mx-2 group-hover:border-b group-hover:border-blue-50;
+  }
+
+  .creations-item {
+    @apply hidden w-full duration-200 md:block group-hover:scale-110;
+  }
+
   .btn {
     @apply px-10 py-2 my-0 font-bold tracking-widest uppercase border-2 border-black font-alata hover:bg-black hover:text-white;
   }
